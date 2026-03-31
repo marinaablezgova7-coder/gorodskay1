@@ -1,0 +1,1737 @@
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Банкротство физических лиц с гарантией списания в городе Валуйки</title>
+<link rel="stylesheet" href="style1.css">
+
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+<div class="header">
+   <div class="header-inner">
+
+    <div class="logo">
+        <img src="img/lo.webp">
+    </div>
+
+    <div class="logo-divider"></div>
+
+    <div class="header-center">
+        <div class="logo-text">
+            Задайте вопрос и получите<br>
+            ответ от юриста за 3 минуты
+        </div>
+
+        <div class="socials">
+            <a class="soc whatsapp1">
+                <img src="img/whatsapp.webp">
+            </a>
+
+            <a class="soc viber">
+                <img src="img/viber.webp">
+            </a>
+
+            <a class="soc telegram">
+                <img src="img/telegram.webp">
+            </a>
+        </div>
+    </div>
+    
+
+    <div class="logo-divider"></div>
+
+    <div class="main-text">
+        <h1>Банкротство физических лиц в Валуйках</h1>
+        <p>под ключ с выгодой до 10 000 рублей!</p>
+    </div>
+
+    <div class="logo-divider"></div>
+
+    <div class="header-right">
+        <div class="phone-block">
+            <div class="phone-label">
+                <img src="img/phone-call.png.webp" width="15">
+                Звоните, сейчас работаем
+            </div>
+            <div class="phone">8 920 595 72 46</div>
+        </div>
+
+        <button class="call-btn js-open-callback" id="openModal">ПЕРЕЗВОНИТЕ МНЕ</button>
+    </div>
+
+</div>
+      </div>
+<!-- Модальное окно -->
+<div class="callback-modal js-callback-modal">
+  <div class="callback-content">
+    <span class="callback-close js-close-callback">&times;</span>
+    <h1>Оставьте заявку</h1>
+    <p>Чтобы наш специалист перезвонил Вам бесплатно и проконсультировал по всем интересующимся вопросам</p>
+    <input type="text" placeholder="Ваше имя" class="callback-name">
+    <input type="tel" placeholder="+7 (000) 000-00-00" class="callback-phone">
+    <div class="callback-error callback-name-error">Пожалуйста, введите имя</div>
+    <div class="callback-error callback-phone-error">Пожалуйста, введите номер телефона</div>
+    <label>
+      <input type="checkbox" checked>
+      Нажимая на кнопку Вы соглашаетесь с <a href="https://bankrotstvo-gorzashita.ru/politic" target="_blank">политикой конфиденциальности</a> нашего сайта
+    </label>
+    <button class="callback-submit">Получить консультацию</button>
+    <p>Это бесплатно и ни к чему Вас не обязывает.</p>
+  </div>
+</div>
+
+<script>
+document.addEventListener('DOMContentLoaded', () => {
+  const modal = document.querySelector('.js-callback-modal');
+  const openBtn = document.querySelector('.js-open-callback');
+  const closeBtn = document.querySelector('.js-close-callback');
+  const submitBtn = document.querySelector('.callback-submit');
+  const nameInput = document.querySelector('.callback-name');
+  const phoneInput = document.querySelector('.callback-phone');
+  const nameError = document.querySelector('.callback-name-error');
+  const phoneError = document.querySelector('.callback-phone-error');
+
+  openBtn.addEventListener('click', () => {
+    modal.style.display = 'block';
+  });
+
+  closeBtn.addEventListener('click', () => {
+    modal.style.display = 'none';
+    clearErrors();
+  });
+
+  window.addEventListener('click', (e) => {
+    if (e.target === modal) {
+      modal.style.display = 'none';
+      clearErrors();
+    }
+  });
+
+  function clearErrors() {
+    nameError.style.display = 'none';
+    phoneError.style.display = 'none';
+  }
+
+  submitBtn.addEventListener('click', () => {
+    let hasError = false;
+    clearErrors();
+
+    if (nameInput.value.trim() === '') {
+      nameError.style.display = 'block';
+      hasError = true;
+    }
+    if (phoneInput.value.trim() === '') {
+      phoneError.style.display = 'block';
+      hasError = true;
+    }
+
+    if (!hasError) {
+      alert('Спасибо! Ваша заявка отправлена.');
+      modal.style.display = 'none';
+    }
+  });
+});
+</script>
+
+<section class="hero">
+  <div class="hero-inner">
+
+    <div class="hero-left">
+      <h1 class="title">
+        <span>СПИШЕМ ВСЕ ВАШИ КРЕДИТЫ<br>
+        И ДОЛГИ</span> В ВАЛУЙКАХ
+      </h1>
+
+      <div class="dark-box">
+  Остановим списания с зарплаты и обнулим долги до 0 ₽<br class="desktop-br">
+  с гарантией положительного результата!<br>
+  Более 1000 наших клиентов уже свободны от долгов!
+</div>
+
+      <div class="cta">
+        <button>СПИСАТЬ МОЙ ДОЛГ</button>
+        <div class="subtext">
+          <b>Узнать решение</b> + стоимость <br> по моей ситуации и получить<br> бесплатную консультацию юриста
+        </div>
+      </div>
+
+</div>
+    <div class="row">
+      <div class="info-box">
+        <h1>Списать долги в 3 раза выгоднее<br>
+         и дешевле, чем платить кредиты !</h1>
+      </div>
+
+      <div class="features">
+        <div class="feature-item">
+          <div class="icon-gal"><img src="img/icon.webp"></div>
+          <div>В суды, в банки и в налоговую ходить не нужно, <strong>мы всё делаем сами!</strong></div>
+        </div>
+
+        <div class="feature-item">
+          <div class="icon-gal"><img src="img/icon.webp"></div>
+          <div>Законно сохраним Ваше <strong>имущество и рабочее место!</strong></div>
+        </div>
+
+        <div class="feature-item">
+          <div class="icon-gal"><img src="img/icon.webp"></div>
+          <div><strong>Возвращаем деньги из собственного фонда, </strong>в случае не списания долга!</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="logo-and-grandma">
+      <div class="background-logo">
+        <img src="img/logss.png.webp">
+      </div>
+
+      <div class="grandma-image">
+        <img src="img/photo.png.webp">
+      </div>
+
+      <div class="hint">
+        <div class="hint-icon">?</div>
+        <div class="hint-text">
+          <b>Списали долг 560 000 рублей</b><br>
+          Платеж по кредитам<br>
+          составлял 17 300 рублей<br>
+          При пенсии 12 700 рублей<br>
+          Платить не смогла и обратилась к нам.
+        </div>
+      </div>
+
+      <img class="doc" src="img/dok.png">
+    </div>
+  </div>
+<!-- Модальное окно вынесено сюда -->
+<div id="docModal" class="modal">
+  <span class="close">&times;</span>
+  <img class="modal-content" id="docFull">
+</div>
+<script>
+const docModal = document.getElementById("docModal");
+const docImg = document.querySelector(".doc");
+const docFull = document.getElementById("docFull");
+const docClose = docModal.querySelector(".close");
+
+docImg.onclick = function() {
+  docFull.src = this.src;
+  const isMobile = window.innerWidth <= 768;
+
+  docModal.style.display = "flex"; // сразу показываем модалку
+
+  if (!isMobile) {
+    // ПК — добавляем анимацию
+    setTimeout(() => docModal.classList.add('show'), 10);
+  }
+};
+
+docClose.onclick = function() {
+  const isMobile = window.innerWidth <= 768;
+
+  if (isMobile) {
+    docModal.style.display = "none"; // закрываем сразу
+  } else {
+    docModal.classList.remove('show');
+    setTimeout(() => docModal.style.display = "none", 300);
+  }
+};
+
+docModal.onclick = function(e) {
+  if (e.target === docModal) {
+    const isMobile = window.innerWidth <= 768;
+
+    if (isMobile) {
+      docModal.style.display = "none";
+    } else {
+      docModal.classList.remove('show');
+      setTimeout(() => docModal.style.display = "none", 300);
+    }
+  }
+};
+
+</script>
+<!-- Скрипт для hint-icon -->
+<script>
+document.addEventListener('DOMContentLoaded', () => {
+  const hints = document.querySelectorAll('.hint');
+
+  hints.forEach(hint => {
+    const icon = hint.querySelector('.hint-icon');
+    const text = hint.querySelector('.hint-text');
+
+    icon.addEventListener('click', (e) => {
+      e.stopPropagation();
+
+      // закрываем все другие
+      document.querySelectorAll('.hint').forEach(h => {
+        if (h !== hint) h.classList.remove('active');
+      });
+
+      // переключаем текущий
+      hint.classList.toggle('active');
+    });
+  });
+
+  // клик вне — закрыть
+  document.addEventListener('click', () => {
+    document.querySelectorAll('.hint').forEach(h => {
+      h.classList.remove('active');
+    });
+  });
+});
+</script>
+</section>
+
+
+
+<div class="container">
+
+    <h2 class="section-title">
+      <span>3 ЛУЧШИХ СПОСОБА</span> ЗАКОННО СПИСАТЬ КРЕДИТЫ И ДОЛГИ
+    </h2>
+
+    <p class="section-subtitle">
+      Выберите <b>1 из 3 лучших</b> вариантов решения проблем с кредитами!
+    </p>
+<div class="wrap card-1">
+
+  
+      <!-- КАРТОЧКА 1-->
+   <div class="left-img">        
+    <img src="img/full1.png" alt="">    
+  </div>
+    <div class="info-card">
+
+        <div class="info-content">
+            <h3>Полное списание кредитов и долгов</h3>
+
+            <p class="desc">
+                В соответствии с ФЗ 127 "О несостоятельности (банкротстве)"
+            </p>
+
+            <p class="text">
+                Полное списание всех кредитов, долгов, в соответствии с ФЗ-127. Все платежи<br>
+                по кредитам - отменяются, все выплаты банкам, МФО и другим кредиторам -<br>
+                прекращаются. <b>Ваши кредиты и долги = 0 руб 00 коп.</b>
+            </p>
+
+            <div class="meta">
+                <div class="meta-item">
+                    <span class="icon"><img src="img/group.png"></span>
+                    <div>
+                        <div class="label">Заказали услугу:</div>
+                        <div class="value gold">430 человек</div>
+                    </div>
+                </div>
+
+                <div class="meta-item">
+                    <span class="icon"><img src="img/bill.png"></span>
+                    <div>
+                        <div class="label">Цена услуги:</div>
+                        <div class="value gold">от 5 100 р./мес</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="info-side">
+            <img src="img/logo2.webp" class="stamp">
+            <button>Записаться</button>
+        </div>
+
+    </div>
+
+</div>
+</div>
+
+
+<div class="wrap reverse card-2">
+      <!-- КАРТОЧКА 2-->
+   <div class="left-img">        
+    <img src="img/Restructuration2.png" alt="">    
+  </div>
+  <div class="info-card-reverse">
+        <div class="info-content-reverse">
+            <h3>Реструктуризация кредитов</h3>
+
+            <p class="desc">
+                В соответствии с ФЗ 127 "О несостоятельности (банкротстве)"
+            </p>
+
+            <p class="text">
+                Реструктуризация кредитов - изменение срока кредита и ежемесячного<br>
+                платежа. Позволяет уменьшить платежи, увеличить срок кредита и снизить<br>
+                нагрузку.
+            </p>
+
+            <div class="meta ">
+                <div class="meta-item">
+                    <span class="icon"><img src="img/group.png"></span>
+                    <div>
+                        <div class="label">Заказали услугу:</div>
+                        <div class="value gold">220 человек</div>
+                    </div>
+                </div>
+
+                <div class="meta-item">
+                    <span class="icon"><img src="img/bill.png"></span>
+                    <div>
+                        <div class="label">Цена услуги:</div>
+                        <div class="value gold">от 3 900 р./мес</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="info-side-reverse">
+            <img src="img/logo2.webp" class="stamp">
+            <button>Записаться</button>
+        </div>
+
+    </div>
+</div>
+
+
+<div class="wrap card-3">
+
+  
+      <!-- КАРТОЧКА 3-->
+   <div class="left-img">        
+    <img src="img/Partial_3-removebg-preview.png" alt="">    
+  </div>
+    <div class="info-card">
+
+        <div class="info-content">
+            <h3>Частичное списание кредитов и долгов</h3>
+
+            <p class="desc">
+                В соответствии с 333 ГК РФ, 395 ГК РФ, ФЗ 229 и др
+            </p>
+
+            <p class="text">
+                Частичное списание кредитов и долгов - позволяет уменьшить финансовую нагрузку,<br>
+                увеличить срок кредитов, зафиксировать платёж, уменьшить начисленные штрафы и пени.<br>
+                <b>Идеально, если Вы хотите выплатить кредиты, но на других условиях.</b>
+            </p>
+
+            <div class="meta">
+                <div class="meta-item">
+                    <span class="icon"><img src="img/group.png"></span>
+                    <div>
+                        <div class="label">Заказали услугу:</div>
+                        <div class="value gold">350 человек</div>
+                    </div>
+                </div>
+
+                <div class="meta-item">
+                    <span class="icon"><img src="img/bill.png"></span>
+                    <div>
+                        <div class="label">Цена услуги:</div>
+                        <div class="value gold">от 2 300 р./мес</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="info-side">
+            <img src="img/logo2.webp" class="stamp">
+            <button>Записаться</button>
+        </div>
+
+    </div>
+
+</div>
+
+<section class="qvizi">
+     <div class="qz-header-text">
+Пройдите тест из 5 простых вопросов и узнайте<br> решение по Вашей ситуации
+  <div class="qz-subtext">
+    Простой тест за 30 секунд и получите расчет стоимости в 3-х вариантах бюджета + 3 бесплатных PDF файла
+  </div>
+</div>
+<div class="qz-wrap">
+  <div class="qz-decor-left">
+  <img src="img/gerb.png" alt="">
+</div>
+
+<div class="qz-decor-right">
+  <img src="img/4.png" alt="">
+</div>
+
+  <div class="qz-left">
+ 
+
+    <div class="qz-top">
+      <div class="qz-step" id="step"></div>
+      <div class="qz-percent" id="percent"></div>
+    </div>
+
+    <div class="qz-progress-wrap">
+      <div class="qz-progress" id="progress"></div>
+    </div>
+
+    <div class="qz-question" id="question"></div>
+    <div id="answers" class="qz-answers"></div>
+
+    <button class="qz-btn" onclick="next()">Далее →</button>
+    <div class="qz-bottom-text">
+  <img src="img/photo).png">
+</div>
+  </div>
+
+  <div class="qz-right">
+    <div class="qz-profile">
+      <div class="qz-logo">
+  <img src="img/logss.png.webp">
+</div>
+
+      <img src="img/photoanna.png" class="qz-avatar">
+
+      <div class="qz-online">
+        <img src="img/online-icon.png" class="qz-online-icon">
+      </div>
+
+      <div class="qz-info">Юрист агентства «Городская защита»</div>
+    </div>
+
+    <div class="qz-text-img"><img src="img/(2).png"></div>
+    <div class="qz-gift"><img src="img/1p.png"></div>
+    <div class="qz-gift"><img src="img/2p.png"></div>
+    <div class="qz-gift"><img src="img/3p.png"></div>
+  </div>
+</div>
+<script>
+const quiz = [
+  {
+    q: "Сколько у вас кредитов и займов?",
+    a: [
+      {t:"1-3 кредита", img:"img/1-3.png"},
+      {t:"4-6 кредита", img:"img/4-6.png"},
+      {t:"Более 5 кредитов", img:"img/5.png"},
+      {t:"Нужна консультация", img:"img/Screenshot_7.png"}
+    ]
+  },
+  {
+    q: "Какова сумма вашей задолженности?",
+    a: [
+      {t:"до 100 000"},
+      {t:"от 100 000 до 300 000"},
+      {t:"от 300 000 до 500 000"},
+      {t:"от 500 000 до 3 000 000"},
+      {t:"свыше 3 000 000"}
+    ]
+  },
+  {
+    q: "Есть ли у вас залоговые обязательства (ипотека, автокредит)?",
+    a: [
+      {t:"Да"},
+      {t:"Нет"}
+    ]
+  },
+  {
+    q: "Куда Вам отправить полезные файлы\n + закрепить скидку 10 000 рублей?",
+    a: [
+      {t:"По Whatsapp", img:"img/whatsap2.png"},
+      {t:"По телефону", img:"img/по телефону.png"},
+      {t:"По Viber", img:"img/Viber2.png"},
+    ]
+  },
+  {
+    type: "final",
+    q: "Расчёт почти готов!"
+  }
+];
+
+let i = 0, selected = null;
+const rightDefault = document.querySelector('.qz-right').innerHTML;
+
+function render() {
+
+  // ВОЗВРАЩАЕМ стандартный правый блок
+  document.querySelector('.qz-right').innerHTML = rightDefault;
+
+  // FINAL SCREEN
+  if (quiz[i].type === "final") {
+
+    document.querySelector('.qz-bottom-text').style.display = "none";
+
+    document.getElementById('step').innerText = "";
+    document.getElementById('percent').innerText = "99%";
+    document.getElementById('progress').style.width = "99%";
+
+    // ПРАВАЯ СТОРОНА (3 КАРТИНКИ)
+    document.querySelector('.qz-right').innerHTML = `
+      <div class="final-right-images">
+        <img src="img/01k.png" class="fr-img">
+        <img src="img/02k.png" class="fr-img">
+        <img src="img/03k.png" class="fr-img">
+      </div>
+    `;
+
+    // ЛЕВАЯ СТОРОНА
+    document.getElementById('question').innerHTML = `
+      <div class="final-title">Расчёт почти готов!</div>
+
+      <div class="final-list">
+        Введите Ваш номер телефона и получите:
+        <br>1) Консультацию специалиста по всем вопросам
+        <br>2) Скидочный сертификат на 10 000 рублей
+        <br>3) + 3 бесплатных PDF файла
+      </div>
+
+      <div class="phone-wrap">
+        <span class="flag">🇷🇺</span>
+        <input type="tel" placeholder="+7 (000) 000-00-00" id="phone">
+      </div>
+
+      <button class="final-btn" id="finalBtn" disabled>
+        <img src="img/final-btn.png">
+      </button>
+
+      <div class="final-agree">
+        <input type="checkbox">
+        Нажимая на кнопку, даю согласие на обработку персональных данных
+      </div>
+    `;
+
+    document.getElementById('answers').innerHTML = "";
+    document.querySelector('.qz-btn').style.display = "none";
+
+    // ВАЛИДАЦИЯ
+    setTimeout(() => {
+      const phone = document.getElementById('phone');
+      const agree = document.querySelector('.final-agree input');
+      const btn = document.getElementById('finalBtn');
+
+      function validate() {
+        const phoneFilled = phone.value.replace(/\D/g, '').length >= 11;
+        const checked = agree.checked;
+        btn.disabled = !(phoneFilled && checked);
+      }
+
+      phone.addEventListener('input', validate);
+      agree.addEventListener('change', validate);
+    }, 0);
+
+    return;
+  }
+
+  // ОБЫЧНЫЕ ВОПРОСЫ
+  document.querySelector('.qz-bottom-text').style.display = "block";
+
+  let q = quiz[i];
+
+  document.getElementById('step').innerText = `Вопрос ${i+1} из ${quiz.length}`;
+  document.getElementById('percent').innerText = Math.round((i+1)/quiz.length*100) + '%';
+  document.getElementById('progress').style.width = ((i+1)/quiz.length*100) + '%';
+  document.getElementById('question').innerText = q.q;
+
+  let wrap = document.getElementById('answers');
+  wrap.innerHTML = '';
+
+  if (q.a.some(o => o.img)) {
+    wrap.className = 'qz-answers card-grid';
+  } else {
+    wrap.className = 'qz-answers column-list';
+  }
+
+  q.a.forEach(o => {
+    let div = document.createElement('div');
+    div.className = 'qz-card';
+
+    div.innerHTML = o.img
+      ? `<img src="${o.img}"><span>${o.t}</span>`
+      : `<div class="radio"></div><span>${o.t}</span>`;
+
+    div.onclick = () => {
+      document.querySelectorAll('.qz-card').forEach(c => c.classList.remove('active'));
+      div.classList.add('active');
+      selected = o.t;
+    };
+
+    wrap.appendChild(div);
+  });
+}
+
+function next() {
+  if (quiz[i].type !== "final" && !selected) {
+    alert('Выберите вариант');
+    return;
+  }
+
+  i++;
+  selected = null;
+
+  if (i < quiz.length) {
+    render();
+  } else {
+    alert('Квиз завершен!');
+  }
+}
+
+render();
+
+</script>
+</section>
+
+
+
+
+
+
+
+
+
+<section class="stories">
+  <div class="stories-header">
+    <div class="stories-title">
+      <span class="icon"><img src="img/782188_b9802f35403f4.gif"></span>
+      <h2>Полезные stories</h2>
+      <span class="sub">важные ответы на вопросы</span>
+    </div>
+
+    <div class="stories-nav">
+      <button class="prev">‹</button>
+      <button class="next">›</button>
+    </div>
+  </div>
+
+  <div class="stories-row">
+
+    <!-- карточка -->
+    <div class="story">
+      <video src="video/IMG_2726.MP4" controls></video>
+    </div>
+
+    <div class="story">
+      <video src="video/IMG_2727.MP4" controls></video>
+    </div>
+
+    <div class="story">
+      <video src="video/IMG_2728.MP4" controls></video>
+    </div>
+
+    <div class="story">
+      <video src="video/IMG_2729.MP4" controls></video>
+    </div>
+
+     <div class="story">
+      <video src="video/IMG_2730.MP4" controls></video>
+    </div>
+
+  </div>
+</section>
+<script>
+const row = document.querySelector('.stories-row');
+const prev = document.querySelector('.prev');
+const next = document.querySelector('.next');
+
+const scrollAmount = 160; // ширина карточки
+
+next.addEventListener('click', () => {
+  row.scrollBy({
+    left: scrollAmount,
+    behavior: 'smooth'
+  });
+});
+
+prev.addEventListener('click', () => {
+  row.scrollBy({
+    left: -scrollAmount,
+    behavior: 'smooth'
+  });
+});
+</script>
+
+<section class="cases">
+  <div class="cases-inner">
+
+    <h2 class="cases-title">
+      100% выигранных дел и освобождений от долгов
+    </h2>
+    <p class="cases-sub">
+      Люди, которые списали все свои долги и живут новой жизнью
+    </p>
+
+    <div class="cases-content">
+
+      <!-- ЛЕВАЯ ЧАСТЬ -->
+      <div class="people-wrap">
+        <img src="img/1111.png.webp" class="people">
+        <img src="img/logss.png.webp" class="people-bg">
+        <div class="cases-text">
+          <p><b>Посмотрите подборку из 25-ти выигранных дел</b></p>
+          <span>чтобы оценить перспективу в своей ситуации</span>
+
+          <button class="cases-btn">Смотреть подборку дел</button>
+        </div>
+      </div>
+
+      <!-- ПРАВАЯ ЧАСТЬ -->
+      <div class="cases-grid">
+
+        <div class="case">
+          <img src="img/380444.webp">
+          <p>Списано долгов:<br><b>-380 444 рублей</b></p>
+        </div>
+
+        <div class="case">
+          <img src="img/516484.webp">
+          <p>Списано долгов:<br><b>-516 484 рублей</b></p>
+        </div>
+
+        <div class="case">
+          <img src="img/590865.webp">
+          <p>Списано долгов:<br><b>-590 865 рублей</b></p>
+        </div>
+
+        <div class="case">
+          <img src="img/502351.webp">
+          <p>Списано долгов:<br><b>-502 351 рублей</b></p>
+        </div>
+
+        <div class="case">
+          <img src="img/650000.webp">
+          <p>Списано долгов:<br><b>-650 000 рублей</b></p>
+        </div>
+
+        <div class="case">
+          <img src="img/529155.webp">
+          <p>Списано долгов:<br><b>-529 155 рублей</b></p>
+        </div>
+
+      </div>
+
+    </div>
+
+  </div>
+</section>
+
+
+<section class="reviews">
+  <div class="reviews-wrapper">
+
+    <h2 class="reviews-title">Наши последние списания</h2>
+
+    <p class="reviews-text">
+      Наши клиенты скажут больше о нашей работе, чем мы сможем сделать это самостоятельно
+    </p>
+
+    <div class="reviews-row">
+
+      <!-- 1 -->
+      <div class="reviews-item">
+        <div class="reviews-media">
+          <video src="video/Отзыв Петровой АА [get.gt].mp4" controls alt=""></video>
+        </div>
+        <div class="reviews-name">Петрова А.А</div>
+        <div class="reviews-price">Списано 861 304,24 руб</div>
+      </div>
+
+      <!-- 2 -->
+      <div class="reviews-item">
+        <div class="reviews-media">
+          <video src="video/Отзыв Сотниковой АС [get.gt].mp4" controls alt=""></video>
+        </div>
+        <div class="reviews-name">Сотникова А.С</div>
+        <div class="reviews-price">Списано 529 155,68 руб</div>
+      </div>
+
+      <!-- 3 -->
+      <div class="reviews-item">
+        <div class="reviews-media">
+          <video src="video/Отзыв Сухомлиновой ИМ [get.gt].mp4" controls alt=""></video>
+        </div>
+        <div class="reviews-name">Сухомлинова И.М.</div>
+        <div class="reviews-price">Списано 502 351,15 руб</div>
+      </div>
+
+    </div>
+
+  </div>
+</section>
+
+
+<section class="finance-block">
+  <div class="finance-wrap">
+    
+    <h1 class="finance-title">
+      Освободим от долгов или выплатим их за Вас
+    </h1>
+
+    <p class="finance-subtitle">
+      80% людей считают, что полностью списать долги невозможно.<br>
+      И лишь 20% решаются на банкротство и освобождаются от долгов навсегда!
+    </p>
+
+    <div class="finance-grid">
+      
+      <div class="finance-left">
+
+        <div class="finance-top">
+    <div class="finance-alert">
+        <img src="img/photoicon.png (1).webp">
+    </div>
+
+    <p class="finance-text">
+        Мы вернем Вам прежнюю жизнь без долгов уже<br>
+        в первые 30 дней после старта работы с нами!
+    </p>
+</div>
+
+        <div class="finance-image">
+          <img class="bg-logo" src="img/logss.png.webp" alt="">
+          <img class="people-img" src="img/people-img.png" alt="">
+        </div>
+
+      </div>
+
+      <div class="finance-right">
+
+        <div class="finance-card">
+          <img src="img/1.png.webp" alt="">
+          <p>Вы ничем не рискуете. Мы гарантируем вам полное
+             освобождение от долгов в п.1.1 нашего договора. У нас
+             нет скрытых условий и мелкого шрифта в договоре.</p>
+        </div>
+
+        <div class="finance-card">
+          <img src="img/2.png.webp" alt="">
+          <p>Вы можете быть на 100% уверены в положительном
+             результате, если мы взялись за Ваше дело, значит мы
+             учли все риски и абсолютно точно спишем долги.</p>
+        </div>
+
+        <div class="finance-card">
+          <img src="img/3.png.webp" alt="">
+          <p>У вас нет рисков. Все гарантии указаны в договоре.<br>
+             Мы работаем до полного списания или вернём Вам<br>
+             деньги за оплаченные услуги.</p>
+        </div>
+
+        <div class="finance-card">
+          <img src="img/4.png.webp" alt="">
+          <p>Поможем вернуть реализованный авто, если у<br>
+             человека есть имущества на стадии реализации<br>
+             поможем сохранить или выкупить имущество.</p>
+        </div>
+
+      </div>
+    </div>
+
+  </div>
+</section>
+
+
+<section class="warning">
+  <div class="warning-wrap">
+
+    <p class="warning-top">
+      *не подлежат списанию долги по возмещению вреда, причиненного жизни и/или здоровью, по выплате заработной платы и выходного пособия, по возмещению морального вреда, а так же, долги по взысканию алиментов
+    </p>
+
+    <div class="warning-grid">
+
+      <div class="warning-item">
+        <div class="icon3">
+          <img src="img/photo.png (1).webp" alt="">
+          <span class="cross"></span>
+        </div>
+        <p>
+          Если вы не делали себе фиктивное банкротство,
+          если Вы не скрыли никаких данных
+        </p>
+      </div>
+
+      <div class="warning-item">
+        <div class="icon3">
+          <img src="img/photo.png (2).webp" alt="">
+          <span class="cross"></span>
+        </div>
+        <p>
+          Отсутствие<br>
+          ложной информации о кредитах
+        </p>
+      </div>
+
+      <div class="warning-item">
+        <div class="icon3">
+          <img src="img/photo.png (3).webp" alt="">
+          <span class="check"></span>
+        </div>
+        <p>
+          Ничего нельзя скрывать от фин управляющего
+          и от нас в том числе, если были какие-либо
+          сделки, всё будет подниматься.
+        </p>
+      </div>
+
+    </div>
+
+  </div>
+</section>
+
+
+<section class="bankrot">
+  <div class="bankrot-side">
+  <img src="img/_.png" alt="">
+</div>
+  <div class="bankrot-wrap">
+
+    <h2 class="bankrot-title">
+      Не ждите иск от банка, подайте на банкротство
+      первыми, чтобы играть по своим правилам
+    </h2>
+
+    <p class="bankrot-subtitle">
+      Кто первый подает иск, тот и выбирает арбитражного управляющего!
+      А от решения управляющего зависит результат Вашего банкротства.
+    </p>
+
+    <div class="bankrot-grid">
+
+      <!-- ФОРМА -->
+      <div class="bankrot-form">
+        <p><b>Оставьте заявку</b><br>
+          И узнайте стоимость списания<br>Ваших долгов в 3-х вариантах
+        </p>
+        <label>Ваше имя</label>
+        <input type="text" placeholder="Ваше имя">
+
+        <label>Ваш телефон</label>
+        <input type="tel" placeholder="+7 (000) 000-00-00">
+
+        <button>Подать на банкротство</button>
+
+        <div class="agree">
+          <input type="checkbox" checked>
+          <span>
+            Нажимая на кнопку Вы соглашаетесь с
+            <a href="https://bankrotstvo-gorzashita.ru/politic">политикой конфиденциальности</a> нашего сайта
+          </span>
+        </div>
+      </div>
+
+      <!-- СПИСОК -->
+      <div class="bankrot-info">
+
+          <div class="gerb-wrap">
+    <img src="img/11111.png" class="gerb-frame">
+    <img src="img/photo.png" class="gerb-icon">
+  </div>
+
+       <h4 class="bankrot-heading">
+  Если кредитор подаст заявление
+  <span>на Ваше банкротство первым:</span>
+</h4>
+
+        <ul class="bankrot-list">
+  <li>
+    <img src="img/11.png.webp" alt="">
+    <span>1.Вы не сможете выехать за границу</span>
+  </li>
+  <li>
+    <img src="img/22.png.webp" alt="">
+    <span>2.Вам грозит судебное преследование</span>
+  </li>
+  <li>
+    <img src="img/33.png.webp" alt="">
+    <span>3.Приготовьтесь к конфискации имущества</span>
+  </li>
+  <li>
+    <img src="img/44.png.webp" alt="">
+    <span>4.Возможен арест недвижимости</span>
+  </li>
+</ul>
+
+        <div class="bankrot-warning">
+          <strong>Если время не терпит отлагательств</strong>
+          <p>Можете напрямую написать нашему юристу в WhatsApp</p>
+        </div>
+<div class="bankrot-contact">
+
+  <div class="person">
+    <img src="img/12121212.png" alt="">
+  </div>
+
+  <a href="#" class="whatsapp">
+    <img src="img/photo (1).png" alt="">
+  </a>
+
+</div>
+      </div>
+
+    </div>
+
+  </div>
+</section>
+
+
+<section class="faq">
+  <div class="faq-wrap">
+
+    <h2 class="faq-title">
+      Мы экономили Ваше время и деньги, чтобы<br>
+      Вы ясно понимали как у нас всё устроено
+    </h2>
+
+    <p class="faq-subtitle">
+      Отвечаем на все Ваши вопросы заранее и понимаем, насколько быстро Вы хотите решить вопрос<br>
+      с долгами и хотя бы немного разобраться в деталях без дополнительных консультаций
+    </p>
+
+    <div class="faq-grid">
+
+      <!-- 1 -->
+      <div class="faq-item">
+        <div class="faq-question">Что такое процедура банкротства?</div>
+        <div class="faq-answer">Банкротство — это процедура, которая помогает законно освободиться от долгов, 
+          если нет возможности их выплачивать.</div>
+      </div>
+
+      <div class="faq-item">
+        <div class="faq-question">Какие долги нельзя списать?</div>
+        <div class="faq-answer">Нельзя списать задолженности по возмещению вреда, причиненного жизни и/ или
+здоровью, по выплате заработной платы и выходного пособия, по возмещению
+морального вреда, а так же, по взысканию алиментов</div>
+      </div>
+
+      <!-- 2 -->
+      <div class="faq-item">
+        <div class="faq-question">Это правда законно?</div>
+        <div class="faq-answer">Списание долгов производится Арбитражным судом на основании Федерального закона от 26.10.2002 N 127-ФЗ "О несостоятельности (банкротстве)"</div>
+      </div>
+
+      <div class="faq-item">
+        <div class="faq-question">Какие условия прохождения процедуры банкротства?</div>
+        <div class="faq-answer">Для каждого гражданина условия работы с нашей компанией подбираются индивидуально, исходя из банкротной ситуации, универсального способа нет. 
+          Вы можете быть уверены, что мы подберем для Вас максимально выгодные условия работы.</div>
+      </div>
+
+      <!-- 3 -->
+      <div class="faq-item">
+        <div class="faq-question">Сколько стоит процедура банкротства?</div>
+        <div class="faq-answer">Стоимость процедуры банкротства рассчитывается индивидуально, исходя из
+наших трудозатрат, при этом мы всегда подбираем максимально комфортный способ
+оплаты для наших клиентов. Стоимость работ мы сообщаем после консультации и она остается неизменной</div>
+      </div>
+
+      <div class="faq-item">
+        <div class="faq-question">Стоит ли проводить процедуру самому?</div>
+        <div class="faq-answer">Банкротство — это сложная и длительная процедура, во всех тонкостях которой может разобраться только опытный юрист, при этом, повторно можно обратиться с заявлением только спустя 5 лет. 
+          Иными словами, малейшая ошибка в ваших действиях может повлечь за собой еще 5 лет долгового рабства</div>
+      </div>
+
+      <!-- 4 -->
+      <div class="faq-item">
+        <div class="faq-question">Вы можете списать все долги?</div>
+        <div class="faq-answer">Мы работаем по Федеральному Закону № 127 «О несостоятельности (банкротстве)», в соответствии с которым, через процедуру банкротства, можно списать долги перед юридическими и физическими лицами, по кредитам, займам, распискам, а так же налоги, штрафы, долги по ЖКХ, долги по судебным решениям и исполнительным листам. Не списываются долги по алиментам, причинению морального вреда и вреда здоровью, а также долги по субсидиарной ответственности. 
+          Узнайте, можно ли списать ваши долги, прямо сейчас. Запишитесь на бесплатную консультацию!</div>
+      </div>
+
+      <div class="faq-item">
+        <div class="faq-question">Какие негативные последствия ожидают меня после процедуры банкротства?</div>
+        <div class="faq-answer">Их не много, и 96% банкротов их даже не ощущают:
+В течение 3 лет нельзя становиться учредителем или занимать должность генерального директора в организации.
+В течение 5 лет повторно обратиться с заявлением о собственном банкротстве Вы не сможете.
+В течение 5 лет при оформлении нового кредита необходимо будет сообщать банку о том, что ы проходили процедуру банкротства.
+В течение 10 лет вы не можете занимать должность руководителя Пенсионного фонда и Фонда социального страхования.
+10 лет нельзя занимать должность управляющего банком и кредитным учреждением</div>
+      </div>
+
+      <!-- 5 -->
+      <div class="faq-item">
+        <div class="faq-question">Можно ли взять кредит после банкротства?</div>
+        <div class="faq-answer">Да, можно. То что не дают кредит - это распространенная информация, которая не соответствует действительности. Банки одобряют кредиты основываясь на текущем финансовом состоянии заемщика. Банкрот - это идеальный клиент для банка, потому что: 1. Отсутствует финансовая нагрузка - т.е. на текущий момент клиент не несет кредитных обязательств и имеет свободные средства для расчетов с банком. 2. Процедуру банкротства физического лица возможно проводить 1 раз в 5 лет - т.е. 
+          у банка есть гарантия того, что вы не сможете провести процедуру намеренно.</div>
+      </div>
+
+      <div class="faq-item">
+        <div class="faq-question">Банкротство с ипотекой возможно?</div>
+        <div class="faq-answer">Наличие ипотечного кредита или займа не является препятствием для вступления в процедуру банкротства, 
+          необходимо анализировать и другие обстоятельства. Как раз для подробного анализа мы и проводим консультации.</div>
+      </div>
+
+    </div>
+
+  </div>
+
+  <script>
+    document.querySelectorAll('.faq-question').forEach(item => {
+      item.addEventListener('click', () => {
+        const parent = item.parentElement;
+        parent.classList.toggle('active');
+      });
+    });
+  </script>
+
+</section>
+
+
+<section class="quiz-section">
+  <div class="quiz-wrapper">
+
+    <h1 class="quiz-title">
+      Узнайте, как бесплатно списать долги в Валуйках<br>
+      через МФЦ без суда и 100% сохранением имущества
+    </h1>
+
+    <p class="quiz-subtitle">
+      Согласно официально подписанному закону Президентом РФ С 1 сентября 2020 года граждане РФ<br>
+      могут списать долги через процедуру банкротства в МФЦ - БЕЗ СУДА!
+    </p>
+
+    <div class="quiz-card">
+
+      <div class="quiz-card-header">
+        <div>
+          Пройдите тест из 5 простых вопросов и узнайте решение по Вашей<br>
+          ситуации с расчетом стоимости
+        </div>
+        <span id="quiz-progress">1/5</span>
+      </div>
+
+      <div class="quiz-card-body" id="quiz-body"></div>
+
+      <div class="quiz-card-footer">
+        <button class="quiz-back" id="quiz-back">← Назад</button>
+        <button class="quiz-next" id="quiz-next" disabled>Далее →</button>
+      </div>
+
+    </div>
+  </div>
+
+<script>
+document.addEventListener('DOMContentLoaded', () => {
+  const steps = [
+    {
+      question: "Кому Вы должны?",
+      name: "debt",
+      answers: ["Банкам","МФО","Гос. органам","Частным лицам"]
+    },
+    {
+      question: "Сколько Вы должны?",
+      name: "sum",
+      answers: ["до 300 000","300k - 500k","500k - 1 млн","Более 1 млн"]
+    },
+    {
+      question: "Есть ли просрочки?",
+      name: "delay",
+      answers: ["Да","Нет","Не знаю"]
+    },
+    {
+      question: "Как связаться?",
+      name: "contact",
+      answers: ["Телефон","WhatsApp","Viber"]
+    },
+    {
+      question: "Введите телефон",
+      name: "phone",
+      type: "phone"
+    }
+  ];
+
+  let currentStep = 0;
+  const answers = {};
+
+  const body = document.getElementById("quiz-body");
+  const nextBtn = document.getElementById("quiz-next");
+  const backBtn = document.getElementById("quiz-back");
+  const progress = document.getElementById("quiz-progress");
+
+  function renderStep() {
+    const step = steps[currentStep];
+
+    if (!body || !nextBtn || !backBtn || !progress) return;
+
+    // Очищаем обработчики событий перед перерисовкой
+    document.querySelectorAll('input, #agree').forEach(el => {
+      el.replaceWith(el.cloneNode(true));
+    });
+
+    if (step.type === "phone") {
+      body.innerHTML = `
+        <h2>${step.question}</h2>
+        <input type="tel" class="quiz-input" placeholder="+7 (___) ___-__-__" value="${answers.phone || ""}">
+        <br><br>
+        <label>
+          <input type="checkbox" id="agree"> Нажимая на кнопку, даю согласие на обработку персональных данных и принимаю условия <a href = "https://bankrotstvo-gorzashita.ru/politic" >политикой конфиденциальности</a>
+        </label>
+      `;
+
+      const input = document.querySelector(".quiz-input");
+      const agree = document.getElementById("agree");
+
+      function validate() {
+        const digits = input.value.replace(/\D/g, "");
+        nextBtn.disabled = !(digits.length >= 10 && agree.checked);
+      }
+
+      input.addEventListener("input", () => {
+        answers.phone = input.value;
+        validate();
+      });
+
+      agree.addEventListener("change", validate);
+
+      nextBtn.textContent = "Получить расчёт + скидку";
+      validate();
+    } else {
+      body.innerHTML = `
+        <h2>${step.question}</h2>
+        ${step.answers.map(a => `
+          <label>
+            <input type="radio" name="${step.name}" value="${a}">
+            ${a}
+          </label><br>
+        `).join("")}
+      `;
+
+      nextBtn.textContent = "Далее →";
+      nextBtn.disabled = true;
+
+      const inputs = document.querySelectorAll(`input[name="${step.name}"]`);
+
+      inputs.forEach(input => {
+        input.addEventListener("change", () => {
+          answers[step.name] = input.value;
+          nextBtn.disabled = false;
+        });
+
+        if (answers[step.name] === input.value) {
+          input.checked = true;
+          nextBtn.disabled = false;
+        }
+      });
+    }
+
+    progress.textContent = `${currentStep + 1}/${steps.length}`;
+    backBtn.style.visibility = currentStep === 0 ? "hidden" : "visible";
+  }
+
+  nextBtn.addEventListener("click", () => {
+    if (currentStep < steps.length - 1) {
+      currentStep++;
+      renderStep();
+    } else {
+      sendToBitrix(answers)
+        .then(() => alert("Отправлено"))
+        .catch(() => alert("Ошибка"));
+    }
+  });
+
+  backBtn.addEventListener("click", () => {
+    if (currentStep > 0) {
+      currentStep--;
+      renderStep();
+    }
+  });
+
+  // Функция отправки данных в Bitrix24
+  function sendToBitrix(data) {
+    return fetch("https://yourdomain.bitrix24.ru/rest/WEBHOOK_ID/crm.lead.add.json", {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({
+        fields: {
+          TITLE: "Заявка с квиза",
+          NAME: data.phone || "Не указан",
+          COMMENTS: `Долг: ${data.debt || "-"}, Сумма: ${data.sum || "-"}, Просрочки: ${data.delay || "-"}, Связь: ${data.contact || "-"}`
+        },
+        params: { "REGISTER_SONET_EVENT": "Y" }
+      })
+    })
+    .then(res => {
+      if (!res.ok) throw new Error('HTTP error ' + res.status);
+      return res.json();
+    });
+  }
+
+  // Инициализация при загрузке
+  renderStep();
+});
+</script>
+</section>
+
+<section class="herocol">
+
+  <h1>
+    Команда юристов, которая поможет<br>
+    сохранить Ваше имущество и рабочее место
+  </h1>
+
+  <p class="subtitle">
+    Мы не только помогаем списать все долги, но и заботимся<br>
+    о дальнейшей полноценной жизни клиента
+  </p>
+
+  <!-- КОЛЛАЖ -->
+  <div class="collage">
+
+    <!-- большое фото слева -->
+    <img class="img big-left" src="img/134.jpg">
+
+    <!-- вертикальные справа -->
+    <img class="img small top1" src="img/40.jpg">
+    <img class="img small top2" src="img/51.jpg">
+    <img class="img small top3" src="img/19.jpg">
+
+    <!-- нижние маленькие -->
+    <img class="img bottom1" src="img/31.jpg">
+    <img class="img bottom2" src="img/22.jpg">
+    <img class="img bottom3" src="img/29.jpg">
+
+    <!-- большое снизу справа -->
+    <img class="img big-bottom" src="img/91.jpg">
+
+  </div>
+
+</section>
+
+<section class="promo">
+  <div class="container">
+    <h2 class="promo__title">Акционные предложения и скидки</h2>
+    <p class="promo__subtitle">
+      заботимся о всех слоях населения и готовы обсуждать и помогать в каждой жизненной ситуации индивидуально
+    </p>
+
+    <div class="promo__grid">
+      
+      <div class="promo__card">
+        <img src="img/Screenshot_1.png" alt="">
+        <h3>Скидка 20 000 рублей</h3>
+        <p>Пенсионерам при банкротстве</p>
+      </div>
+
+      <div class="promo__card">
+        <img src="img/Screenshot_2.png" alt="">
+        <h3>Скидка 20 000 рублей</h3>
+        <p>Многодетным семьям</p>
+      </div>
+
+      <div class="promo__card">
+        <img src="img/Screenshot_4.png" alt="">
+        <h3>Скидка 40 000 рублей</h3>
+        <p>Семейным парам при<br>банкротстве мужа и жены</p>
+      </div>
+
+      <div class="promo__card">
+        <img src="img/Screenshot_5.png" alt="">
+        <h3>Скидка 10 000 рублей</h3>
+        <p>При первичном обращении<br>(скажите, что Вы с сайта или социальной сети)</p>
+      </div>
+
+    </div>
+
+    <p class="promo__note">
+      Внимание скидки и акционные предложения между собой не суммируются!
+    </p>
+
+    <div class="promo__bonus">
+      <img src="img/Screenshot_6.png" alt="">
+      <div>
+        <h3>ПОЛУЧИТЕ 7000 РУБЛЕЙ ЗА РЕКОМЕНДАЦИЮ НА РУКИ ИЛИ НА КАРТУ</h3>
+        <p>
+          Порекомендуйте нас Вашим близким или знакомым, у которых есть долги,<br>
+          кто попал в долговую яму и не может самостоятельно решить этот вопрос
+        </p>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<div class="consultation-block">
+  <h2>Вам не удобно приехать к нам в офис на консультацию?</h2>
+  <p class="subtitle">Мы можем провести её для Вас онлайн</p>
+
+  <div class="steps">
+    <div class="step">
+      <img src="img/01.png" alt="Документы" class="step-img">
+      <div class="step-description">
+        Проанализируем Вашу ситуацию<br>
+        Подберём от 1 до 3 вариантов<br>
+        списания долгов
+      </div>
+    </div>
+
+    <div class="arrow-container">
+      <img src="img/55.png" alt="стрелка" class="arrow-img">
+    </div>
+
+    <div class="step">
+      <img src="img/02.png" alt="Консультация" class="step-img">
+      <div class="step-description">
+        Расскажем весь план Вашего банкротства
+      </div>
+    </div>
+
+    <div class="arrow-container">
+      <img src="img/55.png" alt="стрелка" class="arrow-img">
+    </div>
+
+    <div class="step">
+      <img src="img/03.png" alt="Калькулятор" class="step-img">
+      <div class="step-description">
+        Рассчитаем точную стоимость услуги в Вашем случае
+      </div>
+    </div>
+  </div>
+
+  <div class="form-block">
+    <p>Мы можем предложить анонимное и конфиденциальное банкротство</p>
+
+    <div class="form-row">
+      <input type="text" class="name-input" placeholder="Ваше имя" required>
+      <input type="tel" class="phone-input" placeholder="+7(000)000-0000" required>
+      <button type="button" disabled>Узнать про анонимное банкротство</button>
+    </div>
+
+    <label>
+      <input type="checkbox" id="agree">
+      Нажимая на кнопку Вы соглашаетесь с
+      <a href="https://bankrotstvo-gorzashita.ru/politic">политикой конфиденциальности</a> нашего сайта
+    </label>
+  </div>
+
+  <script>
+    document.addEventListener('DOMContentLoaded', () => {
+      const nameInput = document.querySelector('.name-input');
+      const phoneInput = document.querySelector('.phone-input');
+      const checkbox = document.getElementById('agree');
+      const button = document.querySelector('.form-row button');
+
+      if (!nameInput || !phoneInput || !checkbox || !button) {
+        console.error('Не удалось найти один из элементов формы');
+        return;
+      }
+
+      function checkForm() {
+        const isNameValid = nameInput.value.trim() !== '';
+        const isPhoneValid = phoneInput.value.trim() !== '';
+        const isAgreeChecked = checkbox.checked;
+
+        if (isNameValid && isPhoneValid && isAgreeChecked) {
+          button.disabled = false;
+          button.style.opacity = '1';
+          button.style.cursor = 'pointer';
+        } else {
+          button.disabled = true;
+          button.style.opacity = '0.6';
+          button.style.cursor = 'not-allowed';
+        }
+      }
+
+      nameInput.addEventListener('input', checkForm);
+      phoneInput.addEventListener('input', checkForm);
+      checkbox.addEventListener('change', checkForm);
+
+      // Инициализация состояния кнопки при загрузке
+      checkForm();
+    });
+  </script>
+</div>
+
+<section class="office-section">
+
+  <!-- Верх -->
+  <div class="office-top wrapper">
+    <div class="office-text">
+      <h2 class="office-title">
+        Приглашаем Вас в офис на бесплатную консультацию, чашечку кофе или чая
+      </h2>
+      <p class="office-important">Вам не должно быть стыдно!</p>
+      <p class="office-desc">
+        Банкротство – это законная возможность<br>
+        списать все Ваши долги!
+      </p>
+    </div>
+
+    <div class="office-info">
+      <div class="office-stat">
+  <img src="img/photoicon.png (1).webp" class="office-stat-icon" alt="">
+  <p>
+    Более 160.000 граждан РФ списали все свои кредиты и долги в 2022 году
+  </p>
+</div>
+      <div class="office-note">
+        Только представьте, это по 450 человек каждый день или 18<br>
+        человек в час. И пока вы изучаете этот сайт, где-то в России<br>
+        завершится ещё от 3 до 5 процедур банкротства!
+      </div>
+    </div>
+  </div>
+
+  <!-- Низ -->
+  <div class="office-bottom wrapper">
+    
+    <div class="office-map">
+      <iframe 
+        src="https://yandex.ru/map-widget/v1/?ll=38.094434%2C50.214420&mode=poi&poi%5Bpoint%5D=38.094326%2C50.214411&poi%5Buri%5D=ymapsbm1%3A%2F%2Forg%3Foid%3D41246983287&z=21"
+        width="520px" 
+        height="400px" 
+        frameborder="0">
+      </iframe>
+      <p class="office-address">
+        Адрес: г. Валуйки, ул. М. Горького, д.21/2
+      </p>
+    </div>
+
+    <div class="office-gallery">
+      <div class="office-slides">
+        <img src="img/slides1.jpg" class="is-active">
+        <img src="img/slides2.jpg">
+        <img src="img/slides3.jpg">
+        <img src="img/slides4.jpg">
+        <img src="img/slides5.jpg">
+        <img src="img/slides6.jpg">
+        <img src="img/slides7.jpg">
+      </div>
+
+      <button class="office-btn prev-btn">‹</button>
+      <button class="office-btn next-btn">›</button>
+
+      <p class="office-time">
+        Наш офис работает с понедельника по пятницу с 9 до 18 часов.<br>
+        Выбирайте время удобное Вам и приходите! Никаких очередей. мы будем ждать именно Вас.
+      </p>
+    </div>
+
+  </div>
+ <script>
+const slides = document.querySelectorAll('.office-slides img');
+const nextBtn = document.querySelector('.next-btn');
+const prevBtn = document.querySelector('.prev-btn');
+
+let current = 0;
+let interval;
+
+// показать слайд
+function showSlide(i) {
+  slides.forEach(slide => slide.classList.remove('is-active'));
+  slides[i].classList.add('is-active');
+}
+
+// следующий
+function nextSlide() {
+  current = (current + 1) % slides.length;
+  showSlide(current);
+}
+
+// предыдущий
+function prevSlide() {
+  current = (current - 1 + slides.length) % slides.length;
+  showSlide(current);
+}
+
+// автопрокрутка
+function startAuto() {
+  interval = setInterval(nextSlide, 5000); 
+}
+
+// остановка (например при клике)
+function stopAuto() {
+  clearInterval(interval);
+}
+
+// кнопки
+nextBtn.addEventListener('click', () => {
+  nextSlide();
+  stopAuto();
+  startAuto();
+});
+
+prevBtn.addEventListener('click', () => {
+  prevSlide();
+  stopAuto();
+  startAuto();
+});
+
+// запуск
+startAuto();
+</script>
+</section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<footer class="footer">
+  <div class="container footer__inner">
+    
+    <!-- Логотип -->
+    <div class="footer__logo">
+      <img src="img/logo.png (4).webp" alt="Городская защита">
+    </div>
+
+    <!-- Адрес -->
+    <div class="footer__block">
+      <div class="footer__row">
+        <img src="img/01.png.webp" alt="Адрес" class="footer__icon">
+        <p>г. Валуйки, ул. Горького, д. 21/2</p>
+      </div>
+    </div>
+
+    <!-- Реквизиты -->
+    <div class="footer__block">
+      <p>ИП Кобзев Александр<br>
+        Русланович<br>
+        ИНН 312609924599<br>
+        ОГРН 319312300057292
+    </div>
+
+    <!-- Соцсети -->
+    <div class="footer__block">
+      <p>Задайте вопрос и получите<br>
+        ответ за 3 минуты</p>
+      <div class="footer__socials">
+        <a href="#"><img src="img/whatsapp.webp" alt="WhatsApp"></a>
+        <a href="#"><img src="img/viber.webp" alt="Viber"></a>
+        <a href="#"><img src="img/telegram.webp" alt="Telegram"></a>
+      </div>
+    </div>
+
+    <!-- Контакты -->
+    <div class="footer__contacts">
+       <p class="footer__online">
+    Есть вопросы? Звоните! Мы онлайн
+  </p>
+
+      <div class="footer__row2">
+        <img src="img/photo.png (4).webp" alt="Телефон" class="footer__icon">
+        <p class="footer__phone">8 920 595 72 46</p>
+      </div>
+      <p class="footer__email">Почта: gorzashita@yandex.ru</p>
+      <button class="footer__btn">Позвонить за наш счет</button>
+    </div>
+
+  </div>
+
+  <!-- Нижняя часть -->
+  <div class="footer__bottom">
+    <p>
+      Мы поможем: решить проблемы с кредитами | провести реструктуризацию | оформить банкротство | уменьшить платежи по кредитам |<br>
+      зафиксировать сумму кредитов | сохранить имущество | защититься от коллекторов | вернуть арестованную зарплату | списать кредиты и долги
+    </p>
+
+    <p class="footer__policy">Политика конфиденциальности</p>
+
+    <p class="footer__dev">Сайт разработала: Аблёзгова Марина</p>
+  </div>
+</footer>
+</body>
+</html>
